@@ -40,3 +40,8 @@ module.exports = {
     return cb();
   },
 };
+
+StudentObject.findOneOrCreate = async function findOneOrCreate(
+  params,
+  merchantcode
+) {};

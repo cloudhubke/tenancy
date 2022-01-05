@@ -53,3 +53,5 @@ module.exports.datastores = {
 
   ...global.databaseAdapters,
 };
+
+sails;
