@@ -1,0 +1,34 @@
+{
+  "name": "schoolinf",
+  "private": true,
+  "version": "0.0.0",
+  "description": "a Sails application",
+  "keywords": [],
+  "dependencies": {
+    "@cloudhub-js/sails-arangojs": "^0.3.32",
+    "@cloudhub-js/sails-orm-hook": "^3.31.0",
+    "@sailshq/lodash": "^3.10.3",
+    "async": "2.0.1",
+    "sails": "^1.0.2",
+    "sails-hook-sockets": "^1.4.0"
+  },
+  "devDependencies": {
+    "@sailshq/eslint": "^4.19.3"
+  },
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "npm run lint && npm run custom-tests && echo 'Done.'",
+    "lint": "eslint . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
+    "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bernardgaitho/schoolinf.git"
+  },
+  "author": "bernardgaitho",
+  "license": "",
+  "engines": {
+    "node": ">=14.16"
+  }
+}
